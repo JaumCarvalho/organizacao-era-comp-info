@@ -142,4 +142,8 @@ h1 {
   .button {
     top: 70%;
   }
+  h1 {
+    font-size: 2rem;
+    white-espace: wrap;
+  }
 }

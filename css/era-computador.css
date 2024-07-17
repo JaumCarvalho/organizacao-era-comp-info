@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
 *,
 *::before,
 *::after {
@@ -22,7 +21,7 @@ body {
   text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
 }
 .timeline h1 {
-  background: rgba(223, 39, 39, 0.7);
+  background: rgba(223, 39, 39, 0.856);
   padding: 70px 0;
   font-size: 2.5em;
   text-align: center;
@@ -32,7 +31,7 @@ body {
   padding: 50px 0;
 }
 .timeline ul li {
-  background: rgba(250, 14, 14, 0.7);
+  background: rgba(250, 14, 14, 0.856);
   position: relative;
   margin: 0 auto;
   width: 5px;
@@ -52,7 +51,7 @@ body {
   -webkit-transform: translateX(-50%);
   width: 20px;
   height: 20px;
-  border: 3px solid rgba(250, 14, 14, 0.7);
+  border: 3px solid rgba(250, 14, 14, 0.856);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -61,7 +60,7 @@ body {
   opacity: 0;
 }
 .timeline ul li .content {
-  background: rgba(250, 14, 14, 0.7);
+  background: rgba(250, 14, 14, 0.856);
   position: relative;
   top: 7px;
   width: 450px;
@@ -77,7 +76,7 @@ body {
 }
 .timeline ul li .content:before {
   content: "";
-  background: rgba(250, 14, 14, 0.7);
+  background: rgba(250, 14, 14, 0.856);
   position: absolute;
   top: 0px;
   width: 38px;
@@ -85,18 +84,18 @@ body {
 }
 .timeline ul li:nth-child(odd) .content {
   left: 50px;
-  background: rgba(250, 14, 14, 0.7);
-  background: -webkit-linear-gradient(-45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
-  background: linear-gradient(-45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
+  background: rgba(250, 14, 14, 0.856);
+  background: -webkit-linear-gradient(-45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
+  background: linear-gradient(-45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
 }
 .timeline ul li:nth-child(odd) .content:before {
   left: -38px;
 }
 .timeline ul li:nth-child(even) .content {
   left: calc(-450px - 45px);
-  background: rgba(250, 14, 14, 0.7);
-  background: -webkit-linear-gradient(45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
-  background: linear-gradient(45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
+  background: rgba(250, 14, 14, 0.856);
+  background: -webkit-linear-gradient(45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
+  background: linear-gradient(45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
 }
 .timeline ul li:nth-child(even) .content:before {
   right: -38px;
@@ -125,9 +124,9 @@ body {
   }
   .timeline ul li:nth-child(even) .content {
     left: 45px;
-    background: rgba(250, 14, 14, 0.7);
-    background: -webkit-linear-gradient(-45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
-    background: linear-gradient(-45deg, rgba(223, 39, 39, 0.7), rgba(250, 14, 14, 0.7));
+    background: rgba(250, 14, 14, 0.856);
+    background: -webkit-linear-gradient(-45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
+    background: linear-gradient(-45deg, rgba(223, 39, 39, 0.856), rgba(250, 14, 14, 0.856));
   }
   .timeline ul li:nth-child(even) .content:before {
     left: -33px;

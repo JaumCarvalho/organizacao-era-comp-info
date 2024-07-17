@@ -72,7 +72,7 @@ h1 {
 
 .split.left {
   left:0;
-  background: url('../assets/computador.jpg') center center no-repeat;
+  background: url('./assets/computador.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -86,7 +86,7 @@ h1 {
 
 .split.right {
   right:0;
-  background: url('../assets/informacao.jpg') center center no-repeat;
+  background: url('./assets/informacao.jpg') center center no-repeat;
   background-size: cover;
 }
 

@@ -130,7 +130,7 @@ h1 {
 @media(max-width: 800px) {
   h1 {
     font-size: 2rem;
-    white-espace: wrap;
+    white-space: wrap;
   }
 
   .button {
@@ -144,6 +144,6 @@ h1 {
   }
   h1 {
     font-size: 2rem;
-    white-espace: wrap;
+    white-space: wrap;
   }
 }
